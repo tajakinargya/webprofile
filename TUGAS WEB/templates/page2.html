@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title> PROFILE </title>
+</head>
+<body style="margin: 0; background-image: url('static/background3.jpg'); background-size: cover;">
+    <div style="position: absolute; top: 0 ;left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.58);"></div>
+        <nav style="position: relative; background-color: #1d1b1bb7 ;font-family: 'Times', sans-serif; font-size: 15px; font-weight: bold; display: flex; justify-content: center; align-items: center;">
+            <a href="{{ url_for('home') }}" style="color: whitesmoke ;text-decoration: none; margin: 20px 30px;">HOME</a>
+            <a href="{{ url_for('about') }}" style="color: rgba(103, 207, 255, 0.925);text-decoration: none; margin: 20px 30px;">PROFILE</a>
+            <a href="{{ url_for('contact') }}" style="color: whitesmoke;text-decoration: none; margin: 20px 30px;">CONTACT</a>
+        </nav>
+    </div>
+    <div style="position: relative; display: flex; margin-top: 10px;">
+        <img src="static/profilimg.jpg" style="height: 250px; margin: 30px;">
+        <div style="color: whitesmoke; margin-top: 30px ; font-family: Times; background-color: rgba(50, 47, 47, 0.493); height: 100%; width: 300px;">
+            <div style="margin: 10px;">Nama          : Atha Zaky Anargya</div>
+            <div style="margin: 10px;">Status        : Mahasiswa</div>
+            <div style="margin: 10px;">Kampus        : Universitas Padjadjaran</div>
+            <div style="margin: 10px;">Program Studi : S-1 Teknik Elektro</div>
+            <div style="margin: 10px;">Angkatan      : 2024</div>
+            <div style="margin: 10px;">NPM           : 140910240044</div>
+            <div style="margin: 10px;">Riwayat Pendidikan : <a href="{{ url_for('riwayat')}}" style="color: rgb(235, 227, 227);">Click Here</a></div>
+        </div>
+        <div>
+            <div style="display: flex; justify-content: center;color: whitesmoke; margin: 30px 30px 0 30px; font-family: Times; background-color: rgba(184, 177, 177, 0.493); width: 620px; height: fit-content;">Pengalaman</div>
+            <div style="display: flex; margin: 0 30px 0 30px; color: whitesmoke;">
+                <div style="flex: 1; padding: 10px;">
+                    <div style="display: flex; justify-content: center; background-color: rgba(50, 47, 47, 0.493);">Organisasi</div>
+                    <div style="font-size: 13px; background-color: rgba(184, 177, 177, 0.493); height: 170px;">
+                        <p>Koordinator Sekertaris Bidang OSIS SMA Pasundan 2 Bandung</p>
+                        <p>Kepala Internalisasi Evaluator OSIS SMA Pasundan 2 Bandung</p>
+                        <p>Ketua Basket SMA Pasundan 2 Bandung</p>
+                        <p>Wakil Ketua Akustik SMA Pasundan 2 Bandung</p>
+                        <p>Staff Departemen Kaderisasi Himpunan Mahasiswa Teknik Elektro</p>
+                    </div>
+                </div>
+                <div style="flex: 1; padding: 10px;">
+                    <div style="display: flex; justify-content: center; background-color: rgba(50, 47, 47, 0.493);">Kepanitiaan</div>
+                    <div style="font-size: 13px; background-color: rgba(184, 177, 177, 0.493); height: 170px;">
+                        <p>Ketua Pelaksana BARADYA 2022</p>
+                        <p>Ketua Divisi Keamanan Pastwokeun 2023</p>
+                        <p>Ketua Divisi Sport PASTWOFEST 2023</p>
+                        <p>Wakil Ketua Divisi Acara META ZET 2022</p>
+                        <p>Project Supervisor Magneto 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="position: relative; margin: 15px 100px 0 100px; display: flex; justify-content: center; align-items: center; text-align: center; font-style: italic;">
+        <p style="color: rgba(255, 255, 255, 0.619); font-family: Times;">I am someone with extensive experience in organization, teamwork, and a strong passion for electrical engineering. Currently, I am pursuing a degree in Electrical Engineering, constantly refining my technical skills and deepening my understanding of the ever-evolving tech world. My involvement in various organizations has taught me the value of collaboration, effective communication, and leadership. Whether working individually or as part of a team, I am dedicated to delivering the best results, with a focus on innovative technical solutions. With this background, I am excited to continue growing and expanding my knowledge in the field of electrical engineering.</p>
+    </div>
+
+</body>
+</html>
